@@ -1,0 +1,32 @@
+{
+    "name": "cts/trellis",
+    "type": "framework",
+    "description": "A modern, lightweight development framework for building APIs, CLIs, and web-based applications with PHP.",
+    "license": "MIT",
+    "authors": [
+        {
+            "role": "Owner/Principal Developer",
+            "name": "Steven 'Chris' Clements",
+            "email": "clements.steven@outlook.com",
+            "homepage": "https://github.com/Steven-Clements"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Cts\\Trellis\\": "source/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^7.2"
+    },
+    "require": {
+        "psr/http-message": "^2.0",
+        "psr/container": "^2.0@dev"
+    },
+    "config": {
+        "platform": {
+            "php": "8.2.12"
+        }
+    }
+}
